@@ -1,0 +1,42 @@
+# Based on: github-weekly-reporter setup
+# Docs: https://github.com/deariary/github-weekly-reporter
+
+name: Weekly Report
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'  # Monday 01:00 America/Los_Angeles, 1 hour after daily fetch
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Target date (YYYY-MM-DD, default: today)'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+
+env:
+  SITE_TITLE: 'Dev\nPulse'
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # LLM: Groq free tier. Add a repository secret named GROQ_API_KEY
+      # (get one at https://console.groq.com/keys).
+      # To use another provider, change llm-provider, llm-model and the key input.
+      - uses: deariary/github-weekly-reporter@main
+        with:
+          github-token: ${{ secrets.GH_PAT }}
+          username: 'eBlackrose'
+          mode: 'weekly'
+          language: 'en'
+          timezone: 'America/Los_Angeles'
+          date: ${{ inputs.date }}
+          llm-provider: 'groq'
+          llm-model: 'openai/gpt-oss-120b'
+          groq-api-key: ${{ secrets.GROQ_API_KEY }}
