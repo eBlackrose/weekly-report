@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Dev Pulse</title>
+    <link>https://eBlackrose.github.io/weekly-report/</link>
+    <description>Weekly reports by @eBlackrose</description>
+    <language>en</language>
+    <atom:link href="https://eBlackrose.github.io/weekly-report/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://eBlackrose.github.io/weekly-report/og.png</url>
+      <title>Dev Pulse</title>
+      <link>https://eBlackrose.github.io/weekly-report/</link>
+      <width>1200</width>
+      <height>630</height>
+    </image>
+    <item>
+      <title>Silence in the Repo: A Week of Zero Commits</title>
+      <link>https://eBlackrose.github.io/weekly-report/2026/W47/</link>
+      <guid isPermaLink="true">https://eBlackrose.github.io/weekly-report/2026/W47/</guid>
+      <description>All quiet on the development front, with no PRs, commits, or reviews logged.
+
+This week was a rare lull in the usual storm of code. I logged into GitHub each morning only to see a flat line of activity—zero commits, zero pull requests, and no reviews. The silence gave me space to step back and think about the bigger picture instead of the next merge.
+
+I used the downtime to sketch out the upcoming OAuth2 PKCE integration, tidy up a few design docs, and prioritize backlog tickets for the sprint ahead. While the repo stayed still, my mind was busy mapping out the next wave of work.
+
+Looking ahead, I’m gearing up to turn these plans into action next week, hoping the quiet will be broken by a burst of meaningful contributions.
+
+
+Commits: 0, PRs: 0, Reviews: 0</description>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 GMT</pubDate>
+      <enclosure url="https://eBlackrose.github.io/weekly-report/2026/W47/og.png" type="image/png" length="0" />
+      <media:content url="https://eBlackrose.github.io/weekly-report/2026/W47/og.png" medium="image" type="image/png" width="1200" height="630" />
+    </item>
+  </channel>
+</rss>
