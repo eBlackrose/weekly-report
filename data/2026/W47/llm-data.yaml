@@ -1,0 +1,50 @@
+title: "Silence in the Repo: A Week of Zero Commits"
+subtitle: All quiet on the development front, with no PRs, commits, or reviews logged.
+overview: >
+  This week was a rare lull in the usual storm of code. I logged into GitHub each morning only to see a flat line of
+  activity—zero commits, zero pull requests, and no reviews. The silence gave me space to step back and think about the
+  bigger picture instead of the next merge.
+
+
+  I used the downtime to sketch out the upcoming OAuth2 PKCE integration, tidy up a few design docs, and prioritize
+  backlog tickets for the sprint ahead. While the repo stayed still, my mind was busy mapping out the next wave of work.
+
+
+  Looking ahead, I’m gearing up to turn these plans into action next week, hoping the quiet will be broken by a burst of
+  meaningful contributions.
+summaries:
+  - type: repo-summary
+    heading: "Repo activity: a ghost town"
+    body: No repositories saw any pull request activity this week. I spent the time planning upcoming features and catching
+      up on documentation.
+    chips:
+      - label: total PRs
+        value: "0"
+        color: default
+  - type: activity-pattern
+    heading: "Commit calendar: blank slate"
+    body: Every day recorded zero commits, giving me a rare chance to reflect without the pressure of code churn.
+    chips:
+      - label: peak
+        value: "0"
+        color: green
+  - type: reflection
+    heading: Strategic pause
+    body: I used the downtime to sketch architecture for the upcoming OAuth2 PKCE integration and to review backlog tickets,
+      setting the stage for next week.
+    chips:
+      - label: planned tickets
+        value: "5"
+        color: default
+highlights: []
+ticker:
+  - label: NO SURVIVORS
+    text: "@eBlackrose logs zero commits this week, the repo remains untouched"
+  - label: ABSOLUTE CARNAGE
+    text: "@eBlackrose reports a total of 0 PRs merged, the silence is deafening"
+  - label: DEVELOPING
+    text: "@eBlackrose spends the week reviewing no PRs, coffee consumption spikes"
+  - label: EXPERTS BAFFLED
+    text: "@eBlackrose plans OAuth2 PKCE integration during a quiet week, colleagues intrigued"
+  - label: NOT A DRILL
+    text: "@eBlackrose drafts design docs while the codebase sleeps, productivity in planning mode"
